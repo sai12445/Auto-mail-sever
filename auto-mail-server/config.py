@@ -10,10 +10,10 @@ SMTP_HOST = "smtp.gmail.com"     # Gmail: smtp.gmail.com | Outlook: smtp.office3
 SMTP_PORT = 587                  # 587 = STARTTLS, 465 = SSL
 SECURITY  = "tls"                # "tls" | "ssl" | "none"
 
-USERNAME  = "sai19beera@gmail.com"   # login email
-PASSWORD  = "mfriiiikpanubies"     # Gmail/Outlook: use an APP PASSWORD
+USERNAME  = "yourmail@gmail.com"   # login email
+PASSWORD  = "App Password"     # Gmail/Outlook: use an APP PASSWORD
 
-FROM_NAME = "Sai Kumar"             # default sender name (overridable on the page)
+FROM_NAME = "Your Name "             # default sender name (overridable on the page)
 FROM_ADDR = ""                      # leave "" to use USERNAME
 
 
