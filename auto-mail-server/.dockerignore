@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/
+saved_files/
+scheduled_files/
+mailserver.db*
+store.json*
+*.imported

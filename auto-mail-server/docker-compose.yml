@@ -1,0 +1,13 @@
+services:
+  auto-mail-server:
+    build: .
+    container_name: auto-mail-server
+    ports:
+      - "8894:8894"
+    environment:
+      - PORT=8894
+      - DATA_DIR=/data
+    volumes:
+      # Your data on the HOST (folder created next to this file).
+      - ./data:/data
+    restart: unless-stopped
